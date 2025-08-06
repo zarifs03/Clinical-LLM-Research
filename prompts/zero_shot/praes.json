@@ -1,0 +1,5 @@
+{
+  "id": "prae_zero_001",
+  "task": "PRAE risk extraction",
+  "prompt": "You are a clinical assistant helping assess perioperative risk in children. Based on the following clinical note, assess whether the patient is at risk of a Perioperative Respiratory Adverse Event (PRAE).\n\nPRAE is defined as any respiratory complication occurring during or after surgery, such as airway obstruction, laryngospasm, bronchospasm, or oxygen desaturation.\n\nClinical Note:\n{{clinical_note}}\n\nRespond with one of the following options:\n- Yes (the patient is at risk of PRAE)\n- No (the patient is not at risk of PRAE)\n\nAnswer:"
+}
